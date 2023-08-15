@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		9D0E011C2A8BE41E0034AF76 /* SimpleCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E011B2A8BE41E0034AF76 /* SimpleCalendarApp.swift */; };
-		9D0E011E2A8BE41E0034AF76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E011D2A8BE41E0034AF76 /* ContentView.swift */; };
 		9D0E01202A8BE4210034AF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E011F2A8BE4210034AF76 /* Assets.xcassets */; };
 		9D0E01232A8BE4210034AF76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E01222A8BE4210034AF76 /* Preview Assets.xcassets */; };
+		9D0E012A2A8BE47A0034AF76 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E01292A8BE47A0034AF76 /* EventManager.swift */; };
+		9D0E012C2A8BE78B0034AF76 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E012B2A8BE78B0034AF76 /* EventListView.swift */; };
+		9D0E012E2A8BE9E40034AF76 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E012D2A8BE9E40034AF76 /* Localizable.xcstrings */; };
+		9D0E01302A8BEE8A0034AF76 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E012F2A8BEE8A0034AF76 /* InfoPlist.xcstrings */; };
+		9D0E01332A8BFD0D0034AF76 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E01322A8BFD0D0034AF76 /* EventDetailView.swift */; };
+		9DF751312A8C136B007DDDEC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF751302A8C136B007DDDEC /* DetailView.swift */; };
+		9DF751332A8C1387007DDDEC /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF751322A8C1387007DDDEC /* EventView.swift */; };
+		9DF751352A8C13B9007DDDEC /* LaterEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF751342A8C13B9007DDDEC /* LaterEventsView.swift */; };
+		9DF751372A8C13F5007DDDEC /* TodaysEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF751362A8C13F5007DDDEC /* TodaysEventsView.swift */; };
+		9DF751392A8C1510007DDDEC /* EmptyEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF751382A8C1510007DDDEC /* EmptyEventView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D0E01182A8BE41E0034AF76 /* SimpleCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0E011B2A8BE41E0034AF76 /* SimpleCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalendarApp.swift; sourceTree = "<group>"; };
-		9D0E011D2A8BE41E0034AF76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D0E011F2A8BE4210034AF76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D0E01222A8BE4210034AF76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D0E01292A8BE47A0034AF76 /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		9D0E012B2A8BE78B0034AF76 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		9D0E012D2A8BE9E40034AF76 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		9D0E012F2A8BEE8A0034AF76 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		9D0E01312A8BEE9C0034AF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9D0E01322A8BFD0D0034AF76 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		9DF751302A8C136B007DDDEC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9DF751322A8C1387007DDDEC /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		9DF751342A8C13B9007DDDEC /* LaterEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaterEventsView.swift; sourceTree = "<group>"; };
+		9DF751362A8C13F5007DDDEC /* TodaysEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysEventsView.swift; sourceTree = "<group>"; };
+		9DF751382A8C1510007DDDEC /* EmptyEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyEventView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +70,18 @@
 		9D0E011A2A8BE41E0034AF76 /* SimpleCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				9D0E01312A8BEE9C0034AF76 /* Info.plist */,
 				9D0E011B2A8BE41E0034AF76 /* SimpleCalendarApp.swift */,
-				9D0E011D2A8BE41E0034AF76 /* ContentView.swift */,
+				9D0E01292A8BE47A0034AF76 /* EventManager.swift */,
+				9D0E012B2A8BE78B0034AF76 /* EventListView.swift */,
+				9DF751382A8C1510007DDDEC /* EmptyEventView.swift */,
+				9DF751362A8C13F5007DDDEC /* TodaysEventsView.swift */,
+				9DF751342A8C13B9007DDDEC /* LaterEventsView.swift */,
+				9DF751322A8C1387007DDDEC /* EventView.swift */,
+				9DF751302A8C136B007DDDEC /* DetailView.swift */,
+				9D0E01322A8BFD0D0034AF76 /* EventDetailView.swift */,
+				9D0E012D2A8BE9E40034AF76 /* Localizable.xcstrings */,
+				9D0E012F2A8BEE8A0034AF76 /* InfoPlist.xcstrings */,
 				9D0E011F2A8BE4210034AF76 /* Assets.xcassets */,
 				9D0E01212A8BE4210034AF76 /* Preview Content */,
 			);
@@ -109,6 +138,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 9D0E010F2A8BE41E0034AF76;
 			productRefGroup = 9D0E01192A8BE41E0034AF76 /* Products */;
@@ -127,6 +157,8 @@
 			files = (
 				9D0E01232A8BE4210034AF76 /* Preview Assets.xcassets in Resources */,
 				9D0E01202A8BE4210034AF76 /* Assets.xcassets in Resources */,
+				9D0E01302A8BEE8A0034AF76 /* InfoPlist.xcstrings in Resources */,
+				9D0E012E2A8BE9E40034AF76 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D0E011E2A8BE41E0034AF76 /* ContentView.swift in Sources */,
+				9D0E012A2A8BE47A0034AF76 /* EventManager.swift in Sources */,
+				9D0E01332A8BFD0D0034AF76 /* EventDetailView.swift in Sources */,
 				9D0E011C2A8BE41E0034AF76 /* SimpleCalendarApp.swift in Sources */,
+				9DF751352A8C13B9007DDDEC /* LaterEventsView.swift in Sources */,
+				9DF751332A8C1387007DDDEC /* EventView.swift in Sources */,
+				9DF751372A8C13F5007DDDEC /* TodaysEventsView.swift in Sources */,
+				9DF751392A8C1510007DDDEC /* EmptyEventView.swift in Sources */,
+				9DF751312A8C136B007DDDEC /* DetailView.swift in Sources */,
+				9D0E012C2A8BE78B0034AF76 /* EventListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +314,7 @@
 				DEVELOPMENT_TEAM = RKA7R98LN8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleCalendar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +344,7 @@
 				DEVELOPMENT_TEAM = RKA7R98LN8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleCalendar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
